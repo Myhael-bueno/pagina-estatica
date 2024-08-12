@@ -60,6 +60,21 @@ header#cabecalho .navegacao ul.lista a.links {
   color: #333;
 }
 
+header#cabecalho .navegacao .menu-lateral{
+    display: none;
+}
+
+@media (max-width:700px){
+    header#cabecalho .navegacao .menu-lateral{
+        display: block;
+    }
+
+    header#cabecalho .navegacao ul.lista{
+        display: none;
+    }
+
+}
+
 /* Primeira parte do conteudo */
 
 main#principal{
